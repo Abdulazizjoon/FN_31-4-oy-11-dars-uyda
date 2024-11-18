@@ -138,32 +138,146 @@
 // let res=footbal(obj)
 // console.log(res);
 
-
 //7-masala
-const obj = [
-  {
-    name: "Ali",
-    gol: 6,
-  },
-  {
-    name: "Salim",
-    gol: 7,
-  },
-  {
-    name: "Xurshid",
-    gol: 10,
-  },
-];
-function footbal(a) {
-  let sum = 0
-  let re=null
-  a.forEach((value) => {
-    if (value.gol > sum) {
-      sum = value.gol;
-      re = value;
-    }
-  });
-  return sum
-}
-let res=footbal(obj)
-console.log(res);
+// const menu = [
+//   {
+//     name: "pitza",
+//     price: 60,
+//   },
+//   {
+//     name: "kabop",
+//     price: 20,
+//   },
+//   {
+//     name: "kofe",
+//     price: 10,
+//   },
+// ];
+// function price(a) {
+//   let res = {};
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i].price>5) {
+//       res=a[i]
+//     }
+//   }
+//   return res;
+// }
+//  let res=price(menu);
+// console.log(res);
+
+//8-masala
+// const obj = [
+//   {
+//     name: "Ali",
+//     age: 60,
+//     jins: "erkak",
+//   },
+//   {
+//     name: "Bobur",
+//     age: 20,
+//     jins: "erkak",
+//   },
+//   {
+//     name: "Alisa",
+//     age: 15,
+//     jins: "qizbola",
+//   },
+// ];
+// function aa(a) {
+//   let res = []
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i].jins === "erkak") {
+//       res.push(a[i])
+//     }
+//   }
+//   return res;
+// }
+// let res = aa(obj);
+// console.log(res);
+
+//9-masala
+// const obj = [
+//   {
+//     name: "Ali",
+//     price: 60,
+//   },
+//   {
+//     name: "Salim",
+//     price: 70,
+//   },
+//   {
+//     name: "Xurshid",
+//     price: 80,
+//   },
+// ];
+// function student(a) {
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i].price>60) {
+//       console.log(a[i]);
+//     }
+//   }
+// }
+//  let res=student(obj);
+
+//10-masala
+// let obj = [
+//   {
+//     name: "Islom",
+//     price: 5500000,
+//   },
+//   {
+//     name: "Shahzod",
+//     price: 750000,
+//   },
+//   {
+//     name: "Dilshod",
+//     price: 300000,
+//   },
+//   {
+//     name: "Maksuda",
+//     price: 120000,
+//   },
+//   {
+//     name: "Aziz",
+//     price: 200000,
+//   },
+// ];
+
+// function aa(a) {
+//   return a.filter(function (value) {
+//     return value.price > 1000000
+//   });
+// }
+
+// let res = aa(obj);
+// console.log(res);
+
+
+//11-masala
+// const cars = [  
+//   {
+//     brand: "Toyota",
+//     price: 10000,
+//   },
+//   {
+//     brand: "Ford",
+//     price: 21000,
+//   },
+//   {
+//     brand: "Chevrolet",
+//     price: 22000,
+//   },
+// ];
+
+// function aa(a) {
+//   let sum=[]
+//   a.forEach(value => {
+//     if (value.price>20000) {
+//       sum.push(value)
+//     }
+//   });
+//   return sum
+// }
+// let res=aa(cars)
+// console.log(res);
+
