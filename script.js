@@ -252,7 +252,6 @@
 // let res = aa(obj);
 // console.log(res);
 
-
 //11-masala
 // const cars = [
 //   {
@@ -281,7 +280,6 @@
 // let res=aa(cars)
 // console.log(res);
 
-
 //12-masala
 // const book = [
 //   { title: "Alisher Navoiy", year: 1999 },
@@ -299,5 +297,16 @@
 // console.log(res);
 
 //13-masala
-
-
+// let masage = [
+//   { masage: "salom", time: "2024-11-18T07:40:16.937Z", from: "john" },
+//   { masage: "salom", time: "2024-11-07T07:40:16.937Z", from: "doe" },
+//   { masage: "salom", time: "2024-11-10T07:40:16.937Z", from: "dave" },
+// ];
+// function lastSevenDays(arg) {
+//   let today = new Date();
+//   return arg.filter(function (value) {
+//     let msgtime = new Date(value.time);
+//     return Math.abs(today.getDate() - msgtime.getDate()) <= 7;
+//   });
+// }
+// console.log(lastSevenDays(masage));
