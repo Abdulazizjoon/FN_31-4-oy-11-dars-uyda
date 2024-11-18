@@ -254,7 +254,7 @@
 
 
 //11-masala
-// const cars = [  
+// const cars = [
 //   {
 //     brand: "Toyota",
 //     price: 10000,
@@ -280,4 +280,24 @@
 // }
 // let res=aa(cars)
 // console.log(res);
+
+
+//12-masala
+// const book = [
+//   { title: "Alisher Navoiy", year: 1999 },
+//   { title: "O'tkan kunlar", year: 1900 },
+//   { title: "Chinor daraxti", year: 2001 },
+// ];
+
+// function aa(a) {
+//   return a.filter((value) => {
+//     return value.year > 2000;
+//   });
+// }
+
+// let res = aa(book);
+// console.log(res);
+
+//13-masala
+
 
