@@ -310,3 +310,198 @@
 //   });
 // }
 // console.log(lastSevenDays(masage));
+
+//14-misol
+// let tours = [
+//   {
+//     name: "Paris Safari",
+//     kun: 2
+//   },
+//   {
+//     name: "New York City safari",
+//     kun: 7
+//   },
+//   {
+//     name: "Rome Discovery",
+//     kun: 6
+//   },
+// ];
+
+// function test(a) {
+//     let sum=a.filter(function(value) {
+//         return value.kun>3
+//     })
+//     return sum
+// }
+// let res=test(tours)
+// console.log(res);
+
+//15-misol
+// let movies = [
+//   {
+//     name: "kino1",
+//     janr: "Drama",
+//   },
+//   {
+//     name: "kino2",
+//     janr: "Crime",
+//   },
+//   {
+//     name: "kino3",
+//     janr: "Crime",
+//   },
+// ];
+
+// function typ(a) {
+//     let sum=a.filter(function(value) {
+//         return value.janr == "Drama";
+//     })
+//     return sum
+// }
+// let res=typ(movies)
+// console.log(res);
+
+//16-misol
+// let supermarkets = [
+//   {
+//     name: "SuperMarket1",
+//     price: 1500,
+//   },
+//   {
+//     name: "SuperMarket2",
+//     price: 2000,
+//   },
+//   {
+//     name: "SuperMarket3",
+//     price: 1200,
+//   },
+// ];
+
+// function max(a) {
+//     let sum = a[0].price
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i].price>sum) {
+//             sum=a[i]
+//         }
+//     }
+//     return sum
+// }
+// let res = max(supermarkets)
+// console.log(res);
+
+//17-misol
+// let teacher = [
+//   {
+//     name: "ustoz1",
+//     tajriba: 10,
+//   },
+//   {
+//     name: "ustoz2",
+//     tajriba: 7,
+//   },
+//   {
+//     name: "ustoz3",
+//     tajriba: 12,
+//   },
+// ];
+// function maxTaj(a) {
+//     let sum=a[0].tajriba
+//     a.forEach(value => {
+//         if (value.tajriba > sum) {
+//              sum=value.tajriba
+//         }
+//     });
+//     return sum
+// }
+// let res = maxTaj(teacher)
+// console.log(res);
+
+//18-masala
+// let planets = [
+//   {
+//     name: "merkury",
+//     bor: 99,
+//   },
+//   {
+//     name: "venus",
+//     bor: 222,
+//   },
+//   {
+//     name: "yer",
+//     bor: 360,
+//   },
+// ];
+// function plent(a) {
+//     let sum = a[0].bor;
+//     for (let i = 0; i < a.length; i++) {
+//         if (sum < a[i].bor) {
+//             sum = a[i].bor;
+//         }
+//     }
+//     return sum;
+// }
+// let res = plent(planets);
+// console.log(res);
+
+//19-misol
+// let cars = [
+//     {
+//         model: 'Toyota',
+//         vaqt:5
+//     },
+//     {
+//         model: 'mers',
+//         vaqt: 3
+//     },
+//     {
+//         model: 'Ford',
+//         vaqt: 2
+//     }
+// ]
+// function car(a) {
+//     let res = []
+//     for (let i = 0; i < a.length; i++) {
+//             if (a[i].vaqt>=3 ) {
+//                 res.push(a[i])
+//             }
+//     }
+//     return res
+// }
+// let res = car(cars)
+// console.log(res);
+
+//20-misol
+
+// let phone = [
+//   {
+//     model: "iPhone 15 Pro",
+//     tarmoq: 5,
+//   },
+//   {
+//     model: "Samsung Galaxy S23",
+//     tarmoq: 4,
+//   },
+//   {
+//     model: "samsung Galaxy S24",
+//     tarmoq: 5,
+//   },
+//   {
+//     model: "note 10 pro",
+//     tarmoq: 4,
+//   },
+//   {
+//     model: "Xiaomi 13 Pro",
+//     tarmoq: 5,
+//   },
+// ];
+// function phon(a) {
+//   let res = [];
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i].tarmoq >= 5) {
+//       res.push(a[i]);
+//     }
+//   }
+//   return res;
+// }
+// let res = phon(phone);
+// console.log(res);
